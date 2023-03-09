@@ -1,0 +1,115 @@
+body {
+    background: lavender;
+    font-family: 'Raleway', sans-serif;
+    }
+header, main, footer {
+    min-width: 855px;
+}
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+header {
+    background: white;
+    overflow: auto;
+}
+main {
+    background: white;
+    overflow: auto;
+}    
+
+header h1 {
+    float: left;
+    width: 570px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+header nav {
+    float: right;
+    width: 115px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}    
+
+main .info {
+    max-width: 570px;
+    margin: auto;
+    float: left;
+}
+main h2 {
+    font-size: 30px;
+}
+main p {
+    font-style: italic;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+main h3 {
+    font-size: 20px;
+}
+main ul {
+    width: 570px;
+    list-style-type: circle;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+main .picture {
+    max-width: 285px;
+    margin: auto;
+    float: left;
+}
+
+footer .contact {
+    max-width: 570px;
+    margin: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer h5 {
+    font-weight: bold;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+footer .sitemap {
+    max-width: 285px;
+    margin: auto;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer ul {
+    list-style-type: none;
+}
+footer .mapleft {
+    max-width: 160px;
+    margin: auto;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer .mapright {
+    max-width: 125px;
+    margin: auto;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+

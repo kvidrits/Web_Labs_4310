@@ -1,0 +1,48 @@
+
+.item {
+    margin: 0 10px 40px 10px;
+    padding: 10px;
+    min-height: 250px;
+    background-color: #fff;
+}
+.chair-mb {
+    margin-bottom: 20px;
+}
+.title {
+    font-weight: 700;
+    margin-bottom: 0.35em;
+    line-height: 1.4;
+}
+.img-wrapper,
+.img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+.img-wrapper {
+    position: relative;
+}
+.sale-price {
+    color: #f43c33;
+    padding-right: 3px;
+}
+.price,
+.old-price{
+    position: relative;
+}
+
+.old-price:after {
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    left: -0.3em;
+    right: -0.3em;
+    top: 45%;
+    color: #f43c33;
+    height: 0;
+    border-bottom: 2px solid #f43c33;
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}

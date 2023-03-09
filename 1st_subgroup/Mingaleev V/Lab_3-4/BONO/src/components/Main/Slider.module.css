@@ -1,0 +1,51 @@
+
+.slider {
+    height: 200px;
+    margin-bottom: 20px;
+}
+.slider-control {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    text-shadow: 0 0 3px rgba(0,0,0,.7);
+}
+.slider-control:after {
+    position: relative;
+    top: -1rem;
+    color: white;
+    --mdb-carousel-control-icon-font-size: 3rem;
+}
+.slider-indicators {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+.indicators {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    opacity: .8;
+    /*background: rgba(255,255,255,.6);*/
+    background: blue;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.carousel-img1,
+.carousel-img2,
+.carousel-img3{
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img1 {
+    background-image: url("../../assets/images/slider-divan-soho.jpg");
+}
+.carousel-img2 {
+    background-image: url("../../assets/images/slider-office.jpg");
+}
+.carousel-img3 {
+    background-image: url("../../assets/images/slider-spring-scaled.jpg");
+}

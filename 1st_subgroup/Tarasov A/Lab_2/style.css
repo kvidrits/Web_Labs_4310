@@ -1,0 +1,12 @@
+body, .medicines {
+    background: darkcyan;
+}
+
+h1, .names {
+    text-align: center;
+}
+
+.headlines {
+    font-weight: 900;
+    text-align: center;
+}

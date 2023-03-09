@@ -1,0 +1,11 @@
+
+.divan {
+}
+.divan-title {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}

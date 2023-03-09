@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dept-card {
+    border: solid gray;
+    border-radius: 20px;
+    width: 50%;
+    min-width: 500px;
+    align-self: center;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dept-card img {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    /* float: left; */
+}
+
+.dept-card h2 {
+    width: 100%;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.company-name {
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.worker-card {
+    border: solid gray;
+    border-radius: 20px;
+    width: 50%;
+    align-self: center;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.worker-card-image {
+    display: inline-block;
+}
+
+.worker-card-image img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}

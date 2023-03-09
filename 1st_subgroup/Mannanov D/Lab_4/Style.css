@@ -1,0 +1,124 @@
+body {
+    background: rgb(175, 176, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+header, main, footer {
+    min-width: 855px;
+}
+header, main {
+    background: white;
+    overflow: auto;
+}
+
+
+header .container, main .container, footer .container {
+    padding-top: 10px;
+    max-width: 855px;
+    margin: auto;
+}
+header h1 {
+    float: left;
+    width: 500px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header h2 {
+    float: left;
+    width: 500px;
+    font-size: 25px;
+}
+header nav {
+    font-size: 18px;
+    float: right;
+    width: 300px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+header nav a {
+    display: inline-block;
+}  
+
+main .container {
+    border-top: 5px solid darkblue;
+}
+main .text {
+    max-width: 570px;
+    margin: auto;
+    float: left;
+}
+main h3 {
+    font-size: 30px;
+}
+main p {
+    font-style: italic;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+main h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+main ul {
+    width: 550px;
+    list-style-type:decimal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+main .pic {
+    max-width: 265px;
+    margin: auto;
+    float: right;
+}
+
+footer .container {
+    border-top: 5px solid darkblue;
+}
+footer .contacts {
+    max-width: 550px;
+    margin: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer h5 {
+    font-weight: bold;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+footer .map {
+    max-width: 285px;
+    margin: auto;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer ul {
+    list-style-type: none;
+}
+footer .left_part {
+    max-width: 160px;
+    margin: auto;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer .right_part {
+    max-width: 125px;
+    margin: auto;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/*border: 2px solid salmon;*/

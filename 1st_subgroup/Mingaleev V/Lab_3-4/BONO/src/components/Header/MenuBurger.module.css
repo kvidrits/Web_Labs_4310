@@ -1,0 +1,28 @@
+
+.burger-btn {
+    position: relative;
+    width: 24px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.burger-btn span {
+    display: inline-block;
+    position: absolute;
+    transition: all 0.3s ease-out;
+    width: 24px;
+    height: 2px;
+    background-color: black;
+}
+.top{
+    top: 0px;
+}
+.mid{
+    top: 6px;
+}
+.bottom{
+    bottom: 0px;
+}
+.open {
+
+}

@@ -1,0 +1,92 @@
+.body1{
+    background-image: url("images/for_lab/8th_building_1.jpg");
+    height: 100%;
+}
+.body2{
+    background-image: url("images/for_lab/info_fon_1.jpg");
+    height: 900px;
+}
+.body3{
+  padding-top: 200px;
+  background-image: url("images/for_lab/farm_1.jpg");
+  height: 795px;
+}
+.body4{
+  padding-top: 400px;
+  background-image: url("images/for_lab/teacher_1.jpg");
+  height: 800px;
+}
+a {
+    color: lightskyblue;
+}
+#nav a {
+  color: #d4d4d9; /* Цвет ссылок */
+}
+#nav a:hover, a:hover{
+    color: #3bad2e;
+    text-decoration-style: dashed;
+}
+.header1, .header2 {
+  font-size: 2.2em; /* Размер текста */
+  text-align: center; /* Выравнивание по центру */
+  /*background: #d71920; /* Цвет фона шапки */
+  padding: 5px;
+}
+.header2{
+    font-size: 1.5em;
+    font-style: italic;
+}
+.head3 {
+  background-color: aqua;
+}
+#nav {
+    display: flex;
+    justify-content:space-between;
+  padding: 0.05em 15px;
+  width: 1000px;
+  margin: 15px 325px;
+  font-size: 1.4em;
+  background: #4047a6;
+  border: 5px solid rgb(100, 237, 148);
+}
+#container{
+    font-size: 1.5em;
+    margin: 200px auto;
+    padding: 10px;
+    background-color: moccasin;
+    width: 490px;
+    border: 4px dashed #4047a6;
+}
+#sidebar {
+    border-right: 4px dashed #4047a6;
+    width: 170px; /* Ширина слоя */
+    float: left;
+}
+#content {
+    margin-left: 190px; /* Отступ слева */
+}
+span {
+  color: rgb(211, 18, 18);
+  font-size: 120%;
+  font-weight: bold;
+  font-style: normal;
+}
+#footer1,#footer2 {
+  background-color: #4047a6;
+  color: #f7efef;
+  clear: both; /* Отменяем действие float */
+  padding: 0px 15px; /* Отступы вокруг текста */
+  margin-bottom: 0%;
+  position: absolute;
+    width: 97.1%;
+}
+#footer1{
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+}
+table{
+  margin: 0px auto;
+  font-size: 1.4em;
+  background-color:chartreuse;
+}

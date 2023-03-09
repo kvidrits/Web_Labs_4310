@@ -1,0 +1,26 @@
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-link {
+    border: none;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    padding: 0.5em 1.2em;
+    background: #3960ff;
+    border-radius: 1.5em;
+    font-size: .9em;
+    line-height: 1.3;
+}
+.btn-link:before {
+    content: "🛒";
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}

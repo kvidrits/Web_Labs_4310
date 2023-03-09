@@ -1,0 +1,24 @@
+.favourites-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.favourites,
+.compare{
+    border: none;
+    background-color: transparent;
+}
+.favourites:before {
+    content: "♥";
+    width: 13px;
+    height: 14px;
+    padding: 5px;
+    vertical-align: sub;
+}
+.compare:before {
+    content: "📈";
+    color: #111;
+    width: 13px;
+    height: 14px;
+    vertical-align: sub;
+}

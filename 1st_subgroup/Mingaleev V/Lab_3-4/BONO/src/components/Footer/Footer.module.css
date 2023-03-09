@@ -1,0 +1,53 @@
+
+.footer {
+    padding: 50px 15px;
+    background: #f8f8f8;
+    font-size: .5rem;
+}
+.footer p {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #111;
+}
+.footer small {
+    font-size: 0.7rem;
+}
+.logo-wrapper {
+
+}
+.logo-wrapper img {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.footer-nav {
+    margin-bottom: 20px;
+}
+.nav-link {
+    display: block;
+    color: #3960ff;
+    font-size: 12px;
+}
+.nav-title {
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2.5rem;
+}
+.footer-links a {
+    display: inline-block;
+    padding: 4px;
+    background-color: #fff;
+    margin: 0 3px;
+    width: 36px;
+    height: 36px;
+}
